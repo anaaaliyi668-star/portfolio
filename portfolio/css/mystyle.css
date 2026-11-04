@@ -1,0 +1,57 @@
+
+    /* Pure Black Body */
+    body { background-color: #09090b; color: #e4e4e7; }
+    
+    :root {
+      --primary-accent: #f59e0b; /* New Amber/Yellow Accent */
+      --accent-glow: rgba(245, 158, 11, 0.4);
+      --card-bg: #18181b; 
+      --card-border: #27272a;
+    }
+
+    /* --- SECTION BACKGROUNDS --- */
+    .bg-about-section { background: linear-gradient(180deg, #09090b 0%, #1e293b 50%, #09090b 100%); }
+    .bg-skills-section { background: linear-gradient(180deg, #09090b 0%, #2e1065 50%, #09090b 100%); }
+    .bg-services-section { background: linear-gradient(135deg, #042f2e 0%, #115e59 100%); }
+    .bg-experience-section { background: linear-gradient(180deg, #09090b 0%, #2a110a 50%, #09090b 100%); }
+    .bg-contact-section { background: radial-gradient(circle at 50% 100%, #0f172a 0%, #09090b 70%); }
+
+    /* Hover Effects */
+    .hover-card { transition: all 0.3s ease; border: 1px solid var(--card-border); background-color: var(--card-bg); }
+    .hover-card:hover { border-color: var(--primary-accent); box-shadow: 0 0 20px var(--accent-glow); transform: translateY(-4px); }
+    
+    .hover-pill { transition: all 0.3s ease; border: 1px solid #52525b; color: #a1a1aa; }
+    .hover-pill:hover { border-color: var(--primary-accent); color: var(--primary-accent); box-shadow: 0 0 10px var(--accent-glow); background-color: rgba(245, 158, 11, 0.1); }
+    
+    .link-hover { transition: color 0.2s ease; }
+    .link-hover:hover { color: var(--primary-accent) !important; }
+
+    /* Timeline Styles */
+    .timeline { border-left: 2px solid var(--card-border); position: relative; margin-left: 1rem; padding-left: 1.5rem; }
+    .timeline::before {
+      content: ''; position: absolute; top: 0; left: -2px; height: 100%; width: 2px;
+      background: linear-gradient(to bottom, var(--primary-accent), #3b82f6, transparent);
+    }
+    .timeline-dot {
+      position: absolute; left: -2rem; top: 1.5rem; width: 12px; height: 12px; border-radius: 50%;
+      background-color: var(--primary-accent); box-shadow: 0 0 10px var(--primary-accent);
+    }
+
+    /* Section Headers */
+    .section-title { display: flex; align-items: center; gap: 10px; margin-bottom: 2rem; font-weight: 700; }
+    .section-title i { font-size: 1.5rem; color: var(--primary-accent); }
+    
+    /* Glassmorphism for Services Cards */
+    .glass-card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      transition: all 0.3s ease;
+    }
+    .glass-card:hover {
+      background: rgba(255, 255, 255, 0.1);
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+  

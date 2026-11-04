@@ -1,0 +1,403 @@
+ <!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anwar Aliyi — Software Engineering Student & Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/mystyle.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg p-3 sticky-top border-bottom border-dark" style="background-color: rgba(9, 9, 11, 0.9); backdrop-filter: blur(10px);">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-light" href="#">Anwar<span style="color: var(--primary-accent);">.</span></a>
+      <button class="navbar-toggler border-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-3">
+ <li class="nav-item"><a class="nav-link text-secondary link-hover" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-secondary link-hover" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link text-secondary link-hover" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link text-secondary link-hover" href="#experience">Experience</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="py-4 py-lg-5" style="min-height: 75vh; display: flex; align-items: center;">
+    <div class="container">
+      <div class="row align-items-center">
+        
+        <!-- Left: Profile Image & Buttons -->
+        <div class="col-lg-5 text-center text-lg-start mb-5 mb-lg-0">
+          
+          <img src="image/image.png" 
+               alt="Anwar Aliyi" 
+               class="rounded-circle shadow-lg mx-auto mx-lg-0"
+               style="width: 320px; height: 320px; object-fit: cover; object-position: center 40%; border: 3px solid var(--primary-accent); filter: grayscale(100%) brightness(0.7) contrast(120%);">
+          
+          <div class="d-flex flex-row flex-nowrap gap-2 justify-content-center justify-content-lg-start mt-4">
+            <a href="#contact" class="btn btn-primary px-3 py-2 fw-semibold" style="background-color: var(--primary-accent); border: none; white-space: nowrap; color: #000;">
+              Hire Me
+            </a>
+            <a href="#" class="btn btn-outline-secondary px-3 py-2 fw-semibold hover-pill" style="white-space: nowrap;">
+              Download CV
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: "Hi I'm" Text, Name, and Stats -->
+        <div class="col-lg-6 offset-lg-1">
+          <h5 class="text-secondary mb-1 fw-normal" style="font-size: 1rem;">Hi, I'm</h5>
+          <h1 class="display-6 fw-bold text-light mb-3">Anwar Aliyi</h1>
+          
+          <p class="text-secondary mb-4" style="max-width: 600px; font-size: 0.95rem;">
+            I am a Software Engineering student passionate about building impactful digital solutions. As an aspiring developer, I constantly explore new technologies, solve complex problems, and work toward creating software that makes a difference.
+          </p>
+
+          <div class="row row-cols-3 g-2 mb-4" style="max-width: 450px;">
+            <div class="col">
+              <div class="p-2 text-center rounded hover-card">
+                <h4 class="fw-bold mb-0" style="color: var(--primary-accent); font-size: 1.2rem;">3+</h4>
+                <small class="text-secondary" style="font-size: 0.7rem;">Years Learning</small>
+              </div>
+            </div>
+            <div class="col">
+              <div class="p-2 text-center rounded hover-card">
+                <h4 class="fw-bold mb-0" style="color: var(--primary-accent); font-size: 1.2rem;">10+</h4>
+                <small class="text-secondary" style="font-size: 0.7rem;">Projects Built</small>
+              </div>
+            </div>
+            <div class="col">
+              <div class="p-2 text-center rounded hover-card">
+                <h4 class="fw-bold mb-0" style="color: var(--primary-accent); font-size: 1.2rem;">5+</h4>
+                <small class="text-secondary" style="font-size: 0.7rem;">Certifications</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex flex-row gap-2">
+            <a href="#contact" class="btn btn-outline-light px-3 py-1 btn-sm" style="font-size: 0.85rem;">Work With Me</a>
+            <a href="#services" class="btn btn-outline-light px-3 py-1 btn-sm" style="font-size: 0.85rem;">View Services</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT (Dark Slate) -->
+ <section id="about" class="py-5 bg-about-section">
+    <div class="container py-lg-4">
+      <h2 class="section-title">About Me <i class="bi bi-arrow-up-circle"></i></h2>
+      <div class="row g-4">
+        <div class="col-lg-9">
+          <p class="text-secondary mb-4">
+            Hello, I’m Anwar — a Software Engineering student, aspiring developer, and tech enthusiast with a strong focus on <strong class="text-light">modern web development and software design</strong>.
+          </p>
+          <p class="text-secondary mb-4">
+            <i class="bi bi-globe me-2" style="color: var(--primary-accent);"></i> <strong class="text-light">Web Development</strong> I design and build applications that combine frontend clarity with robust backend systems, working with HTML, CSS, JavaScript, React, and Node.js. My journey began with core fundamentals, and has grown into full‑stack development that balances usability with technical precision.
+            </p>
+          <p class="text-secondary">
+            <i class="bi bi-code-square me-2" style="color: var(--primary-accent);"></i> <strong class="text-light">Software Engineering</strong> As a student, I explore algorithms, data structures, database management, and software architecture to tackle real-world challenges. My focus is on writing clean code, learning best practices, and building scalable applications.
+          </p>
+        </div>
+        <div class="col-lg-3">
+          <div class="p-4 rounded hover-card h-100">
+            <h6 class="fw-bold text-light mb-3">At a glance</h6>
+            <ul class="list-unstyled mb-0 text-secondary d-flex flex-column gap-2 small">
+              <li><i class="bi bi-check2-circle me-2" style="color: var(--primary-accent);"></i>Software Engineering Student</li>
+              <li><i class="bi bi-check2-circle me-2" style="color: var(--primary-accent);"></i>Full-Stack Developer</li>
+              <li><i class="bi bi-check2-circle me-2" style="color: var(--primary-accent);"></i>Problem Solver</li>
+              <li><i class="bi bi-check2-circle me-2" style="color: var(--primary-accent);"></i>Continuous Learner</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS (Deep Plum/Purple) - SIDE-BY-SIDE -->
+  <section id="skills" class="py-5 bg-skills-section">
+    <div class="container py-lg-5"> 
+      <h2 class="section-title">My Skills <i class="bi bi-arrow-up-circle"></i></h2>
+      
+      <div class="row g-4"> 
+        <div class="col-lg-6 d-flex align-items-stretch">
+          <div class="p-4 rounded hover-card w-100">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="d-flex align-items-center justify-content-center rounded" style="width: 48px; height: 48px; border: 1px solid var(--primary-accent); background-color: rgba(245, 158, 11, 0.1);">
+                <i class="bi bi-code-slash fs-4" style="color: var(--primary-accent);"></i>
+              </div>
+              <h4 class="fw-bold text-light mb-0">Technical Skills</h4>
+            </div>
+            <p class="text-secondary mb-4">Building complete web and mobile products end to end.</p>
+            
+            <div class="d-flex flex-wrap gap-2"> 
+              <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">React</span>
+              <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">Node.js</span>
+              <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">JavaScript</span>
+              <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">HTML5 & CSS3</span>
+              <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">Tailwind CSS</span>
+ <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">MongoDB</span>
+              <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">PostgreSQL</span>
+              <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">Python</span>
+              <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">Java</span>
+              <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">Git & GitHub</span>
+               <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">C++</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 d-flex align-items-stretch">
+          <div class="p-4 rounded hover-card w-100">
+            <div class="d-flex align-items-center gap-3 mb-3">
+              <div class="d-flex align-items-center justify-content-center rounded" style="width: 48px; height: 48px; border: 1px solid var(--primary-accent); background-color: rgba(245, 158, 11, 0.1);">
+                <i class="bi bi-people fs-4" style="color: var(--primary-accent);"></i>
+              </div>
+              <h4 class="fw-bold text-light mb-0">Soft Skills</h4>
+            </div>
+            <p class="text-secondary mb-4">Collaborating effectively and communicating ideas clearly.</p>
+            
+            <div class="d-flex flex-wrap gap-2">
+              <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">Team Collaboration</span>
+              <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">Problem Solving</span>
+              <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">Adaptability</span>
+              <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">Time Management</span>
+              <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">Communication</span>
+              <span class="badge rounded-pill px-3 py-2 fw-normal hover-pill bg-dark text-light">Critical Thinking</span>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </section>
+
+  <!-- SERVICES (3 Cards Side-by-Side) -->
+  <section id="services" class="py-5 bg-services-section">
+    <div class="container py-lg-4">
+      <h2 class="section-title text-white">Services I Offer <i class="bi bi-arrow-up-circle text-white"></i></h2>
+      
+      <div class="row g-4">
+        <!-- Web Development -->
+        <div class="col-lg-4">
+          <div class="p-4 rounded h-100 glass-card text-white">
+            <div class="d-flex align-items-center justify-content-center rounded mb-3" style="width: 48px; height: 48px; border: 1px solid rgba(255,255,255,0.4); background-color: rgba(255,255,255,0.2);">
+              <i class="bi bi-code-slash fs-4 text-warning"></i>
+            </div>
+            <h4 class="fw-bold mb-2">Web Development</h4>
+            <p class="mb-4 opacity-75">Designing and developing responsive web applications and software solutions using modern technologies.</p>
+            
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-3 fw-medium">
+              <li class="d-flex align-items-center gap-2"><i class="bi bi-check-circle-fill text-warning"></i> Frontend Development</li>
+              <li class="d-flex align-items-center gap-2"><i class="bi bi-check-circle-fill text-warning"></i> Backend Development</li>
+              <li class="d-flex align-items-center gap-2"><i class="bi bi-check-circle-fill text-warning"></i> Database Integration</li>
+              <li class="d-flex align-items-center gap-2"><i class="bi bi-check-circle-fill text-warning"></i> Responsive Design</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- UI/UX & Design -->
+        <div class="col-lg-4">
+ <div class="p-4 rounded h-100 glass-card text-white">
+            <div class="d-flex align-items-center justify-content-center rounded mb-3" style="width: 48px; height: 48px; border: 1px solid rgba(255,255,255,0.4); background-color: rgba(255,255,255,0.2);">
+              <i class="bi bi-palette fs-4 text-warning"></i>
+            </div>
+            <h4 class="fw-bold mb-2">UI/UX & Design</h4>
+            <p class="mb-4 opacity-75">Creating clean, user-friendly interfaces and intuitive experiences that look great.</p>
+            
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-3 fw-medium">
+              <li class="d-flex align-items-center gap-2"><i class="bi bi-check-circle-fill text-warning"></i> Wireframing</li>
+              <li class="d-flex align-items-center gap-2"><i class="bi bi-check-circle-fill text-warning"></i> User Interface Design</li>
+              <li class="d-flex align-items-center gap-2"><i class="bi bi-check-circle-fill text-warning"></i> Color Theory</li>
+              <li class="d-flex align-items-center gap-2"><i class="bi bi-check-circle-fill text-warning"></i> Figma & Design Tools</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Academic Projects -->
+        <div class="col-lg-4">
+          <div class="p-4 rounded h-100 glass-card text-white">
+            <div class="d-flex align-items-center justify-content-center rounded mb-3" style="width: 48px; height: 48px; border: 1px solid rgba(255,255,255,0.4); background-color: rgba(255,255,255,0.2);">
+              <i class="bi bi-mortarboard fs-4 text-warning"></i>
+            </div>
+            <h4 class="fw-bold mb-2">Academic Projects</h4>
+            <p class="mb-4 opacity-75">Partnering with fellow students and developers to build academic projects.</p>
+            
+            <ul class="list-unstyled mb-0 d-flex flex-column gap-3 fw-medium">
+              <li class="d-flex align-items-center gap-2"><i class="bi bi-check-circle-fill text-warning"></i> Group Collaboration</li>
+              <li class="d-flex align-items-center gap-2"><i class="bi bi-check-circle-fill text-warning"></i> Code Review</li>
+              <li class="d-flex align-items-center gap-2"><i class="bi bi-check-circle-fill text-warning"></i> Documentation</li>
+              <li class="d-flex align-items-center gap-2"><i class="bi bi-check-circle-fill text-warning"></i> Open-Source</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE (Deep Chocolate/Brown) -->
+  <section id="experience" class="py-5 bg-experience-section">
+    <div class="container py-lg-4">
+      <h2 class="section-title">My Journey & Experience <i class="bi bi-arrow-up-circle"></i></h2>
+      
+      <div class="timeline">
+        <div class="position-relative mb-5">
+          <div class="timeline-dot"></div>
+          <div class="p-4 rounded hover-card">
+            <h6 class="fw-bold mb-1" style="color: var(--primary-accent);">2022 — Present</h6>
+            <h4 class="fw-bold text-light mb-1">BSc in Software Engineering</h4>
+            <p class="text-secondary mb-4">University Student</p>
+            
+            <ul class="text-secondary d-flex flex-column gap-2 mb-4" style="list-style-type: disc; padding-left: 1rem;">
+              <li>Studying core software engineering principles, algorithms, and data structures.</li>
+              <li>Gaining hands-on experience with full-stack web development.</li>
+              <li>Collaborating on academic projects and team-based software builds.</li>
+              <li>Maintaining a strong focus on modern frameworks and best coding practices.</li>
+            </ul>
+            <div class="text-light small fw-semibold">C++ . Java · Python · Data Structures · Algorithms · Database Systems</div>
+          </div>
+        </div>
+ <div class="position-relative mb-5">
+          <div class="timeline-dot"></div>
+          <div class="p-4 rounded hover-card">
+            <h6 class="fw-bold mb-1" style="color: var(--primary-accent);">2023 — Present</h6>
+            <h4 class="fw-bold text-light mb-1">Freelance & Personal Projects</h4>
+            <p class="text-secondary mb-4">Independent Developer</p>
+            
+            <ul class="text-secondary d-flex flex-column gap-2 mb-4" style="list-style-type: disc; padding-left: 1rem;">
+              <li>Building responsive websites and web apps for practice and real-world use.</li>
+              <li>Developing frontend interfaces using React and modern CSS frameworks.</li>
+              <li>Creating RESTful APIs and integrating databases like MongoDB and PostgreSQL.</li>
+              <li>Continuously learning through online courses, tutorials, and documentation.</li>
+            </ul>
+            <div class="text-light small fw-semibold">React · Node.js · Express · MongoDB · Tailwind CSS · Git</div>
+          </div>
+        </div>
+
+        <div class="position-relative mb-5">
+          <div class="timeline-dot"></div>
+          <div class="p-4 rounded hover-card">
+            <h6 class="fw-bold mb-1" style="color: var(--primary-accent);">2023 — Present</h6>
+            <h4 class="fw-bold text-light mb-1">Certifications & Continuous Learning</h4>
+            <p class="text-secondary mb-4">Online Platforms & Workshops</p>
+            
+            <ul class="text-secondary d-flex flex-column gap-2 mb-4" style="list-style-type: disc; padding-left: 1rem;">
+              <li>Completed web development bootcamps and coding challenges.</li>
+              <li>Earned certifications in JavaScript, React, and database management.</li>
+              <li>Participated in hackathons and tech community events.</li>
+              <li>Actively engaged in open-source learning and peer programming.</li>
+            </ul>
+            <div class="text-light small fw-semibold">Certifications · Hackathons · Continuous Learning · Problem Solving</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT (Dark Navy Blue) -->
+  <section id="contact" class="py-5 bg-contact-section">
+    <div class="container py-lg-4">
+      <h2 class="section-title justify-content-center">Let's work together <i class="bi bi-arrow-up-circle"></i></h2>
+      <p class="text-center text-secondary mb-5 fs-6">HAVE A PROJECT, ROLE, OR IDEA IN MIND? SEND A MESSAGE BELOW AND I'LL GET BACK TO YOU WITHIN A DAY OR TWO.</p>
+      
+      <div class="row justify-content-center g-4 mb-5">
+        <div class="col-lg-8">
+          <div class="p-4 rounded hover-card" style="border-color: var(--primary-accent);">
+            <form>
+              <div class="mb-3">
+                <label class="form-label text-light">Name</label>
+                <input type="text" class="form-control bg-dark text-light border-secondary" placeholder="Enter Your Name">
+              </div>
+              <div class="mb-3">
+                <label class="form-label text-light">Email Address</label>
+                <input type="email" class="form-control bg-dark text-light border-secondary" placeholder="Enter Your Email">
+              </div>
+              <div class="mb-3">
+                <label class="form-label text-light">Subject</label>
+                <input type="text" class="form-control bg-dark text-light border-secondary" placeholder="Enter Your Subject">
+              </div>
+              <div class="mb-4">
+                <label class="form-label text-light">Messages</label>
+                <textarea class="form-control bg-dark text-light border-secondary" rows="4" placeholder="Write Your Message Here"></textarea>
+              </div>
+              <button type="submit" class="btn w-100 fw-bold text-dark" style="background-color: var(--primary-accent);">Send Message</button>
+ </form>
+          </div>
+        </div>
+        
+        <div class="col-lg-8">
+          <div class="p-4 rounded hover-card" style="border-color: var(--primary-accent);">
+            <p class="text-center text-secondary mb-4">FEEL FREE TO REACH OUT TO ME VIA EMAIL OR CONNECT WITH ME ON SOCIAL MEDIA.</p>
+            
+            <div class="d-flex flex-column gap-4">
+              <div class="d-flex align-items-center gap-3">
+                <div class="rounded-circle bg-secondary bg-opacity-25 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                  <i class="bi bi-envelope-fill fs-5 text-light"></i>
+                </div>
+                <div>
+                  <h6 class="text-secondary mb-0">Email</h6>
+                  <a href="mailto:anwar@example.com" class="text-light text-decoration-none link-hover fs-6">anwar@example.com</a>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-3">
+                <div class="rounded-circle bg-secondary bg-opacity-25 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                  <i class="bi bi-linkedin fs-5 text-light"></i>
+                </div>
+                <div>
+                  <h6 class="text-secondary mb-0">Linkedin</h6>
+                  <a href="https://linkedin.com/in/anwaraliyi" target="_blank" class="text-light text-decoration-none link-hover fs-6">linkedin.com/in/anwaraliyi</a>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-3">
+                <div class="rounded-circle bg-secondary bg-opacity-25 d-flex align-items-center justify-content-center" style="width: 50px; height: 50px;">
+                  <i class="bi bi-github fs-5 text-light"></i>
+                </div>
+                <div>
+                  <h6 class="text-secondary mb-0">GitHub</h6>
+                  <a href="https://github.com/anwaraliyi" target="_blank" class="text-light text-decoration-none link-hover fs-6">github.com/anwaraliyi</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-5 text-center">
+    <div class="container">
+      <h5 class="fw-bold text-light mb-3">ANWAR ALIYI</h5>
+      <p class="text-secondary mb-4 mx-auto" style="max-width: 600px;">
+        SOFTWARE ENGINEERING STUDENT & ASPIRING FULL-STACK DEVELOPER
+      </p>
+      
+      <ul class="nav justify-content-center gap-4 mb-4">
+        <li class="nav-item"><a href="#about" class="nav-link text-secondary link-hover">ABOUT</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link text-secondary link-hover">SKILLS</a></li>
+        <li class="nav-item"><a href="#services" class="nav-link text-secondary link-hover">SERVICES</a></li>
+        <li class="nav-item"><a href="#experience" class="nav-link text-secondary link-hover">EXPERIENCE</a></li>
+      </ul>
+      
+      <p class="text-secondary mb-4">LET'S CONNECT — REACH OUT ON ANY OF THESE</p>
+      
+      <div class="d-flex justify-content-center gap-3 mb-4">
+        <a href="https://linkedin.com/in/anwaraliyi" class="text-secondary fs-4 link-hover"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/anwaraliyi" class="text-secondary fs-4 link-hover"><i class="bi bi-github"></i></a>
+        <a href="#" class="text-secondary fs-4 link-hover"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-secondary fs-4 link-hover" style="border: 1px solid var(--primary-accent); border-radius: 50%; padding: 0 8px;"><i class="bi bi-arrow-up"></i></a>
+      </div>
+      
+      <small class="text-secondary">© 2026 Anwar Aliyi. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
